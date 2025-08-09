@@ -5,7 +5,11 @@
   :depends-on ()
   :components ((:module "src"
                 :components
-                ((:file "main"))))
+                ((:file "utils")
+                 (:file "traits")
+                 (:file "status")
+                 (:file "weapon")
+                 (:file "main"))))
   :description "Generate a skeleton for modern project"
   :in-order-to ((test-op (test-op "game/tests"))))
 
